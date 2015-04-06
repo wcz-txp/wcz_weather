@@ -26,7 +26,7 @@ Example use:
 
 Parameters:
 *names*: name of the city/town how you want to see it on your site, not obligatory, if not declared location code (see next line) is used
-*codes*: location code of the city/town on worldweatheronline.com *The number of city codes has to be equal to the number of names of these locations!*
+*codes*: location code of the city/town on worldweatheronline.com _The number of city codes has to be equal to the number of names of these locations!_
 *key*: the API-key you got, after registering on worldweatheronline.com
 *image*: wether to show icons or not ("1" or "0"), default is "1"
 *sprite_image*: wether to use css_sprite file on your server ("1") or to retrieve the icons from worldweatheronline ("0"), default is "1"
