@@ -1,0 +1,158 @@
+.weather-sprite {
+	background:url('weather-sprite.png') no-repeat top left; display:inline-block;
+}
+.weather-sprite#wsymbol_0001_sunny {
+	background-position:0 -0px;
+	width: 64px;
+	height: 64px;
+}
+.weather-sprite#wsymbol_0002_sunny_intervals {
+	background-position:0 -64px;
+	width: 64px;
+	height: 64px;
+}
+.weather-sprite#wsymbol_0003_white_cloud {
+	background-position:0 -128px;
+	width: 64px;
+	height: 64px;
+}
+.weather-sprite#wsymbol_0004_black_low_cloud {
+	background-position:0 -192px;
+	width: 64px;
+	height: 64px;
+}
+.weather-sprite#wsymbol_0006_mist {
+	background-position:0 -256px;
+	width: 64px;
+	height: 64px;
+}
+.weather-sprite#wsymbol_0007_fog {
+	background-position:0 -320px;
+	width: 64px;
+	height: 64px;
+}
+.weather-sprite#wsymbol_0008_clear_sky_night {
+	background-position:0 -384px;
+	width: 64px;
+	height: 64px;
+}
+.weather-sprite#wsymbol_0009_light_rain_showers {
+	background-position:0 -448px;
+	width: 64px;
+	height: 64px;
+}
+.weather-sprite#wsymbol_0010_heavy_rain_showers {
+	background-position:0 -512px;
+	width: 64px;
+	height: 64px;
+}
+.weather-sprite#wsymbol_0011_light_snow_showers {
+	background-position:0 -576px;
+	width: 64px;
+	height: 64px;
+}
+.weather-sprite#wsymbol_0012_heavy_snow_showers {
+	background-position:0 -640px;
+	width: 64px;
+	height: 64px;
+}
+.weather-sprite#wsymbol_0013_sleet_showers {
+	background-position:0 -704px;
+	width: 64px;
+	height: 64px;
+}
+.weather-sprite#wsymbol_0016_thundery_showers {
+	background-position:0 -768px;
+	width: 64px;
+	height: 64px;
+}
+.weather-sprite#wsymbol_0017_cloudy_with_light_rain {
+	background-position:0 -832px;
+	width: 64px;
+	height: 64px;
+}
+.weather-sprite#wsymbol_0018_cloudy_with_heavy_rain {
+	background-position:0 -896px;
+	width: 64px;
+	height: 64px;
+}
+.weather-sprite#wsymbol_0019_cloudy_with_light_snow {
+	background-position:0 -960px;
+	width: 64px;
+	height: 64px;
+}
+.weather-sprite#wsymbol_0020_cloudy_with_heavy_snow {
+	background-position:0 -1024px;
+	width: 64px;
+	height: 64px;
+}
+.weather-sprite#wsymbol_0021_cloudy_with_sleet {
+	background-position:0 -1088px;
+	width: 64px;
+	height: 64px;
+}
+.weather-sprite#wsymbol_0024_thunderstorms {
+	background-position:0 -1152px;
+	width: 64px;
+	height: 64px;
+}
+.weather-sprite#wsymbol_0025_light_rain_showers_night {
+	background-position:0 -1216px;
+	width: 64px;
+	height: 64px;
+}
+.weather-sprite#wsymbol_0026_heavy_rain_showers_night {
+	background-position:0 -1280px;
+	width: 64px;
+	height: 64px;
+}
+.weather-sprite#wsymbol_0027_light_snow_showers_night {
+	background-position:0 -1344px;
+	width: 64px;
+	height: 64px;
+}
+.weather-sprite#wsymbol_0028_heavy_snow_showers_night {
+	background-position:0 -1408px;
+	width: 64px;
+	height: 64px;
+}
+.weather-sprite#wsymbol_0029_sleet_showers_night {
+	background-position:0 -1472px;
+	width: 64px;
+	height: 64px;
+}
+.weather-sprite#wsymbol_0032_thundery_showers_night {
+	background-position:0 -1536px;
+	width: 64px;
+	height: 64px;
+}
+.weather-sprite#wsymbol_0033_cloudy_with_light_rain_night {
+	background-position:0 -1600px;
+	width: 64px;
+	height: 64px;
+}
+.weather-sprite#wsymbol_0034_cloudy_with_heavy_rain_night {
+	background-position:0 -1664px;
+	width: 64px;
+	height: 64px;
+}
+.weather-sprite#wsymbol_0035_cloudy_with_light_snow_night {
+	background-position:0 -1728px;
+	width: 64px;
+	height: 64px;
+}
+.weather-sprite#wsymbol_0036_cloudy_with_heavy_snow_night {
+	background-position:0 -1792px;
+	width: 64px;
+	height: 64px;
+}
+.weather-sprite#wsymbol_0037_cloudy_with_sleet_night {
+	background-position:0 -1856px;
+	width: 64px;
+	height: 64px;
+}
+.weather-sprite#wsymbol_0040_thunderstorms_night {
+	background-position:0 -1920px;
+	width: 64px;
+	height: 64px;
+}

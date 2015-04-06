@@ -1,0 +1,48 @@
+h1. Shows a table with data from different weather stations. A weather plugin for textpattern.
+
+h2(#plugin). Plugin
+
+Just install and activate.
+
+You have to register at "*World Weather Online*":http://worldweatheronline.com/register.aspx
+You can find there icons in worldweather directory with 25px icons.
+Use weather_sprite.css and weather-sprite.png in your layout, adapt it to your needs.
+You can find a list of weather codes and the names of the icons "*here*":http://worldweatheronline.com/feed/wwoConditionCodes.txt
+For city code look "*here*":http://www.worldweatheronline.com/country.aspx
+
+*Please note, that you have to use a caching plugin like "*aks_cache*":http://textpattern.org.ua/plugins/aks_cache, to stay within the limit of 500 requests per hour!*
+a second variant is to use the "*external version*":#external with cron or "*aks_cron*":http://textpattern.org.ua/plugins/aks_cron
+
+Example use:
+@<txp:weather names="Town_1,City_2" codes="town1,city2" key="your_key" />@
+
+Parameters:
+names: name of the city/town how you want to see it on your site, not obligatory, if not declared location code (see next line) is used
+codes: location code of the city/town on worldweatheronline.com
+
+*The number of city codes has to be equal to the number of names of these locations!*
+
+key: the API-key you got, after registering on worldweatheronline.com
+image: wether to show icons or not ("1" or "0"), default is "1"
+sprite_image: wether to use css_sprite file on your server ("1") or to retrieve the icons from worldweatheronline ("0"), default is "1"
+wind_unit: show wind speed in km/h or mph, choose between "k" or "m", default is "k"
+temperature_unit: use Fahrenheit or Celsius scale, "C" or "F", default is "C"
+class: table class, default is "weather"
+row_class: row class, default is "weather-row"
+place_class: td class for the city, default is "weather"
+temperature_class: td class for the temperature, default is "weather"
+icon_class: td class for the icons or the sprite_image, default is "weather"
+language: what language to use for title texts? default is English "en" other language codes you can find "*here*":http://www.worldweatheronline.com/api/docs/multilingual.aspx
+wait: time to wait between requests for different cities in micro seconds (one millionth of a second). Default is 500000 micro seconds.
+
+Released under the General Public License 2.0
+
+The Iconset has another license! Look "*here*":http://www.worldweatheronline.com/free-weather-feed.aspx
+
+h2(#external). External file
+
+In source directory you can also find a php file named wcz_weather_extern.php. Edit it to your needs with upper listed parameters parameters. Pay attention to the path for the ready html file.
+In textpattern place something like that: @<txp:php>$weather = file_get_contents('textpattern/tmp/weather.html');echo($weather);</txp:php>@
+Then you have to configure a cron job in this manner:
+@5 3,6,8,10,12,14,16,18,20,22 * * *  www-data /usr/bin/php /var/www/your_site/wcz_weather.php@
+or install "*aks_cron*":http://textpattern.org.ua/plugins/aks_cron and place your command line there.
