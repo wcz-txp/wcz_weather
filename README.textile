@@ -54,7 +54,7 @@ or install "*aks_cron*":http://textpattern.org.ua/plugins/aks_cron and place you
 
 h2(#contributors). Contributors
 
-this plugin uses most of the code from *snt_weather* plugin by Simon Lindley "*http://www.simonaut.com/*"
+this plugin uses most of the code from *snt_weather* plugin by Simon Lindley "*http://www.simonaut.com/*":http://www.simonaut.com/
 
 h2(#changelog). Changelog
 
