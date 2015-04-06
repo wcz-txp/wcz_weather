@@ -10,7 +10,7 @@ Use weather_sprite.css and weather-sprite.png in your layout, adapt it to your n
 You can find a list of weather codes and the names of the icons "*here*":http://worldweatheronline.com/feed/wwoConditionCodes.txt
 For city code look "*here*":http://www.worldweatheronline.com/country.aspx
 
-*Please note, that you have to use a caching plugin like "*aks_cache*":http://textpattern.org.ua/plugins/aks_cache, to stay within the limit of 500 requests per hour!*
+*Please note, that you have to use a caching plugin like "aks_cache":http://textpattern.org.ua/plugins/aks_cache, to stay within the limit of 500 requests per hour!*
 a second variant is to use the "*external version*":#external with cron or "*aks_cron*":http://textpattern.org.ua/plugins/aks_cron
 
 Example use:
