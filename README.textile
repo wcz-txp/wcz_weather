@@ -1,5 +1,13 @@
 h1. Shows a table with data from different weather stations. A weather plugin for textpattern.
 
+*Table of contents*
+
+"*Plugin*":#plugin
+"*External file*":#external
+"*Contributors*":#contributors
+"*Changelog*":#changelog
+"*License*":#license
+
 h2(#plugin). Plugin
 
 Just install and activate.
@@ -35,9 +43,6 @@ icon_class: td class for the icons or the sprite_image, default is "weather"
 language: what language to use for title texts? default is English "en" other language codes you can find "*here*":http://www.worldweatheronline.com/api/docs/multilingual.aspx
 wait: time to wait between requests for different cities in micro seconds (one millionth of a second). Default is 500000 micro seconds.
 
-Released under the General Public License 2.0
-
-The Iconset has another license! Look "*here*":http://www.worldweatheronline.com/free-weather-feed.aspx
 
 h2(#external). External file
 
@@ -46,3 +51,24 @@ In textpattern place something like that: @<txp:php>$weather = file_get_contents
 Then you have to configure a cron job in this manner:
 @5 3,6,8,10,12,14,16,18,20,22 * * *  www-data /usr/bin/php /var/www/your_site/wcz_weather.php@
 or install "*aks_cron*":http://textpattern.org.ua/plugins/aks_cron and place your command line there.
+
+h2(#contributors). Contributors
+
+this plugin uses most of the code from *snt_weather* plugin by Simon Lindley "*http://www.simonaut.com/*"
+
+h2(#changelog). Changelog
+
+* 0.5.1 - bugfixes, changed api-server
+* 0.5.0 - new parameters, code cleaning, parameter "names" is not obligatory, different language strings
+* 0.4.0 - changed to worldweatheronline api
+* 0.3.2 - error handling
+* 0.3.1 - Update 08/07/2009 API-Update
+* 0.3 - enhanced
+* 0.2 - 11/06/2005
+
+h2(#license). License
+
+Released under the General Public License 2.0
+
+The Iconset has another license! Look "*here*":http://www.worldweatheronline.com/free-weather-feed.aspx
+
